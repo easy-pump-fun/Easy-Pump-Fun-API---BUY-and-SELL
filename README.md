@@ -19,7 +19,7 @@ Request Example Python - BUY
 
     import requests
 
-    url = "https://www.easypumpfun.com/buy"
+    url = "https://api.easypumpfun.com/buy"
     data = {
         "keypair": "2oPQn9z1OaXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNwt02aoMW7", # [string] Private key for wallet you want to use
         "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump", # [string] Token you want to buy
@@ -43,7 +43,7 @@ Request Example Python - SELL
 
     import requests
 
-    url = "https://www.easypumpfun.com/sell"
+    url = "https://api.easypumpfun.com/sell"
     data = {
         "keypair": "2oPQn9z1OaXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNwt02aoMW7", # [string] Private key for wallet you want to use
         "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump", #[string] Token you want to sell
